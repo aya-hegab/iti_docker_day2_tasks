@@ -1,0 +1,11 @@
+version: '3'
+services:
+  python:
+    image: python:1.1
+    ports:
+      - 8000:8000
+
+  redis:
+    image: redis:latest
+    ports:
+      - 6379:6379
